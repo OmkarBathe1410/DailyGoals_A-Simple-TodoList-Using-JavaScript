@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #f5f5dc;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 70%;
+  margin: 10px auto;
+  min-height: 97vh;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #a52a2a;
+  text-align: center;
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  font: 100 1rem sans-serif;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+button {
+  margin: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(59, 59, 255);
+  color: #ffffff;
+  width: 70px;
+  padding: 8px 0;
+  border-radius: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(26, 26, 255);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  transform: translate(2px, -1px);
+}
+
+.task {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px 0px 30px 30px;
+  margin: 2vmax;
+  border-radius: 3px;
+}
+
+.task>div {
+  width: 100%;
+}
+
+.task p {
+  font-weight: 500;
+}
+
+.task span {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.task button {
+  margin-top: -3rem;
+  background-color: #ffffff;
+  border: none;
+  color: red;
+  font-size: 1.1rem;
+  width: 40px;
+  padding: 3px 0px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task button:hover {
+  background-color: red;
+  color: #fff;
+}
